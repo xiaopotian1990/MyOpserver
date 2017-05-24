@@ -171,6 +171,7 @@
       <DependentUpon>Servers.cshtml</DependentUpon>
     </Compile>
     <Content Include="Config\Readme.txt" />
+    <None Include="Config\SecuritySettings.config.example" />
     <Content Include="Content\bootstrap\js\bootstrap.min.js" />
     <Content Include="Content\font-awesome\fonts\fontawesome-webfont.svg" />
     <Content Include="Content\img\logo\full-dark.svg" />
@@ -385,7 +386,6 @@
     <Content Include="Content\font-awesome\less\screen-reader.less" />
     <Content Include="Content\font-awesome\less\stacked.less" />
     <Content Include="Content\font-awesome\less\variables.less" />
-    <Content Include="Config\SecuritySettings.config" />
     <None Include="Help\SQL\WaitStats.md" />
     <Content Include="Views\CloudFlare\Dashboard.cshtml" />
     <Content Include="Views\Dashboard\Node.Graph.cshtml">
