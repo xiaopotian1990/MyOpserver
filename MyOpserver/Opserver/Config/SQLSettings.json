@@ -1,0 +1,25 @@
+﻿{
+  "defaultConnectionString": "Data Source=192.168.11.210;Initial Catalog=test;User ID=sa;Password=Luzou+18518095396",
+  "clusters": [
+    {
+      "name": "192.168.11.210",
+      "refreshIntervalSeconds": 20,
+      "nodes": [
+        {
+          "name": "192.168.11.220",
+          "connectionString": "Data Source=192.168.11.220;Initial Catalog=test;User ID=sa;Password=Luzou+18518095396"
+        },
+        {
+          "name": "192.168.11.210",
+          "connectionString": "Data Source=192.168.11.210;Initial Catalog=test;User ID=sa;Password=Luzou+18518095396"
+        }
+      ]
+    }
+  ],
+  "instances": [
+    {
+      "name": "work",
+      "connectionString": "Data Source=192.168.11.210;Initial Catalog=test;User ID=sa;Password=Luzou+18518095396"
+    }
+  ]
+}

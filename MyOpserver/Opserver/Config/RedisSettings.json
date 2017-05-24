@@ -1,0 +1,24 @@
+﻿{
+  "Servers": [
+    {
+      "name": "127.0.0.1",
+      "instances": [
+        {
+          "name": "localhost",
+          "port": "6379",
+          "password": "zoulu19900206"
+        }
+      ]
+    },
+    {
+      "name": "192.168.11.220",
+      "instances": [
+        {
+          "name": "work",
+          "port": "6379",
+          "password": "Lz+18518095396+zL"
+        }
+      ]
+    }
+  ]
+}
