@@ -171,7 +171,7 @@
       <DependentUpon>Servers.cshtml</DependentUpon>
     </Compile>
     <Content Include="Config\Readme.txt" />
-    <None Include="Config\SecuritySettings.config.example" />
+    <None Include="Config\SecuritySettings.config" />
     <Content Include="Content\bootstrap\js\bootstrap.min.js" />
     <Content Include="Content\font-awesome\fonts\fontawesome-webfont.svg" />
     <Content Include="Content\img\logo\full-dark.svg" />
@@ -207,11 +207,11 @@
     <Content Include="App_Code\Helpers.cshtml" />
     <Content Include="Config\DashboardSettings.json.example" />
     <Content Include="Config\ElasticSettings.json.example" />
-    <Content Include="Config\ExceptionsSettings.json.example" />
+    <None Include="Config\ExceptionsSettings.json" />
     <Content Include="Config\HAProxySettings.json.example" />
     <Content Include="Config\PollingSettings.json.example" />
-    <Content Include="Config\RedisSettings.json.example" />
-    <Content Include="Config\SQLSettings.json.example" />
+    <None Include="Config\RedisSettings.json" />
+    <None Include="Config\SQLSettings.json" />
     <Content Include="Content\img\logo\logo.eps" />
     <Content Include="Config\JiraSettings.json.example" />
     <Content Include="App_Code\Gauges.cshtml" />
